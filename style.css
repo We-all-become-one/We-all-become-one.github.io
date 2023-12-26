@@ -1,0 +1,136 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./dark_geometric.png) repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.header_avatar {
+  width: 195px;
+  height: 195px;
+  border-radius: 5%;
+}
+
+.header_avatar_outline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+}
+
+.header_title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 32px;
+  line-height: 0.5;
+  text-align: center;
+  color: #000000;
+  -webkit-text-stroke: 0.2px #98E2CC;
+  text-stroke: 0.2px #98E2CC;
+}
+
+.header_title_small {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  -webkit-text-stroke: 0.2px #98E2CC;
+  text-stroke: 0.2px #98E2CC;
+}
+
+.links {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.links_header {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+  color: #000000;
+  -webkit-text-stroke: 0.2px #98E2CC;
+  text-stroke: 0.2px #98E2CC;
+}
+
+.links_container {
+  background-color: #3B3B3B;
+  list-style-type: none;
+  border: 1.5px solid #AEB1B2;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 15px 5px ;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links_link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1.5px solid #AEB1B2;
+  width: 315px;
+  font-size: 16px;
+  font-size: 1;
+  color: #AEB1B2;
+}
+
+.links_link:last-child {
+  border-bottom: none;
+}
+
+.linsk_link,
+.links_link:visited {
+  text-decoration: none;
+  color: #4592EB;
+}
+
+.linsk_link:hover {
+  color: #B13F11;
+}
+
+.links_title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 35px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 350px;
+  background: #EBFDFB;
+  border: 1.5px solid #AEB1B2;
+  border-radius: 5px;
+
+  font-size: 16px;
+  line-height: 1.4;
+
+  color: #B13F11;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #B13F11;
+  color: #AEB1B2;
+}
